@@ -1,2 +1,7 @@
 # Aura Kingdom imGui
- Simple c++ 
+ Simple c++ project with integrated imGui interface
+ 
+ Future work:
+ - Fish fix
+ - EAL 
+ 
