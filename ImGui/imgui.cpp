@@ -1714,7 +1714,7 @@ ImU32 ImGui::GetColorU32(const ImVec4& col)
 const ImVec4& ImGui::GetStyleColorVec4(ImGuiCol idx)
 {
     ImGuiStyle& style = GImGui->Style;
-    return style.Colors[idx];
+    return style.COlors[idx];
 }
 
 ImU32 ImGui::GetColorU32(ImU32 col)
@@ -1731,6 +1731,7 @@ ImU32 ImGui::GetColorU32(ImU32 col)
 // [SECTION] ImGuiStorage
 // Helper: Key->value storage
 //-----------------------------------------------------------------------------
+    //return style.Colors[idx];
 
 // std::lower_bound but without the bullshit
 static ImVector<ImGuiStorage::Pair>::iterator LowerBound(ImVector<ImGuiStorage::Pair>& data, ImGuiID key)
