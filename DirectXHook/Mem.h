@@ -12,4 +12,5 @@ namespace mem
 	void Nop(BYTE* dst, unsigned int size);
 	void NopEx(BYTE* dst, unsigned int size, HANDLE hProcess);
 	uintptr_t FindDMAAddy(uintptr_t ptr, std::vector<unsigned int> offsets);
+
 }
